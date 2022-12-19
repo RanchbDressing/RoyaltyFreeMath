@@ -1,0 +1,49 @@
+body {
+	background-color: rgb(230, 230, 230);
+}
+h1 {
+	text-align: center;
+	background-color: rgb(150, 150, 150);
+	font-size: 75px;
+	font-family: serif;
+
+}
+.desc {
+	font-size: 20px;
+	text-align: center;
+	font-family: sans-serif;
+	background-color: rgb(220, 220, 220);
+	height: 75px;
+	position: relative;
+	top: -50px;
+
+}
+.nav {
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-top: auto;
+	background-color: rgb(200, 200, 200);
+	height: 75px;
+	position: relative;
+	top: -70px;
+	text-align: center;
+}
+.TakeToPage {
+	height: 75px;
+	max-width: fit-content;
+	min-width: 200px;
+	background-color: rgb(200, 200, 200);
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 20px;
+}
+.TakeToPage:hover {
+	background-color: rgb(150, 150, 150);
+}
+p {
+	font-size: 20px;
+	font-family: sans-serif;
+	background-color: rgb(180, 180, 180);
+	position: relative;
+	height: fit-content;
+}
