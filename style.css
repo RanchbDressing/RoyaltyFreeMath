@@ -43,7 +43,7 @@ h1 {
 p {
 	font-size: 20px;
 	font-family: sans-serif;
-	background-color: rgb(180, 180, 180);
+	background-color: rgb(200, 200, 200);
 	position: relative;
 	height: fit-content;
 }
@@ -52,4 +52,20 @@ p {
 	height: 300;
 	border: transparent;
 	background-color: rgb(230, 230, 230);
+}
+h2 {
+	font-size: 50px;
+
+}
+ul {
+	font-size: 15px;
+
+}
+.TableContents {
+	background-color: white;
+	max-width: fit-content;
+	min-width: 400px;
+}
+h3 {
+	font-size: 30px;
 }
