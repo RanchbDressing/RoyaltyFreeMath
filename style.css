@@ -47,3 +47,9 @@ p {
 	position: relative;
 	height: fit-content;
 }
+.cookie {
+	width: 1500;
+	height: 300;
+	border: transparent;
+	background-color: rgb(230, 230, 230);
+}
