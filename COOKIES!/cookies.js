@@ -18,7 +18,7 @@ var clickEfficiency = 1;
 var guns = 0;
 var gunValue = 1500;
 var gunUpgradeValue = 1875;
-var gunEfficiency = 20;
+var gunEfficiency = 35;
 
 
 // ✅ Change button text on click
@@ -45,7 +45,7 @@ grandmas = (grandmas + 1);
 j = (j-grandmaValue);
 ccounter.textContent = j + " cookies";
 grandmaValue = ((grandmaValue * 1.3) - ((grandmaValue * 1.3)% 1));
-btng.textContent = "buy grandma (" + grandmaValue + " cookies)";
+btng.textContent = "buy grandma (" + grandmaValue + " cookies) (" + grandmas + " grandmas) (" + gmaEfficiency + " c/s per grandma)";
   }
 });
 
@@ -75,7 +75,7 @@ guns = (guns + 1);
 j = (j-gunValue);
 ccounter.textContent = j + " cookies";
 gunValue = ((gunValue * 1.3) - ((gunValue * 1.3)% 1));
-btngun.textContent = "Buy Cookie Gun (" + gunValue + " cookies)";
+btngun.textContent = "Buy Cookie Gun (" + gunValue + " cookies) (" + guns + ") (" + gunEfficiency +" c/s per gun)";
   }
 });
 
