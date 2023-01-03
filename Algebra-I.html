@@ -33,6 +33,7 @@
 							<li><a href="#ovlinear">Linear</a></li>
 							<li><a href="#ovexponential">Exponential</a></li>
 							<li><a href="#ovquadratic">Quadratic</a></li>
+							<li><a href="#ovsequences">Sequences</a></li>
 						</ul>
 					<li><a href="#ovquadratics">Quadratics</a></li>
 				</ul>
@@ -41,13 +42,16 @@
 	</div>
 	<div>
 		<h2 id="overview">Overview</h2>
+
+			<p> This section is meant to be a brief summary of each of the concepts I will go through.  If you don't understand the explanation, because they can be a bit confusing, that's fine.  I'm trying to cram in as much info as possible into small paragraphs.  More thourough explanations will come later.  :)</p>
+
 			<h3 id="ovrealnums">Real Numbers</h3>
 				<p>
 					Real numbers are, as you probably could've guessed, numbers that exist.  (wow how insightfull)  What this means is that rational numbers, which are numbers that can be written as fractions, are real numbers, but so are <i>irr</i>ational numbers like pi and the square root of 2.  
 				</p>
 			<h3 id="ovequations">Equations and Inequalities</h3>
 			<p>
-				You have probably heard of F = ma in science class.  F = ma is an <i>equation</i> which states that Force (F) is equal to mass (m) times acceleration (a).  We can use equations to model things more efficiently, like with F = ma. Since in an equation, both sides are equal, if you were to add 1 to both sides, they would still be equal.  (if F = ma then F+1 = ma+1) This fact can be very usefull for a few reasons.  Lets say that you are going to a party, since you are super fancy you decide to get five jars of <a href="COOKIES!/cookies.html" style="color: rgb(50, 100, 150);">cookies.</a>  But the number of cookies isn't on the packaging.  Your friend happens to bring one of the same jars plus some boxes (boxes together contain 36 total cookies.) from the same brand.  (I know this is really specific, just bear with me here) <br><br> By sheer miricle and blessing of the dumb math equations Leprachaun, the combined weights written on each package (both jars and boxes) for each of you is the same.  (Since they are the same brand, this supposedly means the total number of cookies is the same).  Point is, you two want to make sure you have enough cookies for the party.  Neither of you will open the packages since you aren't sociopaths.  <br> You can get past this oddly specific conundrum by realising that since you and your friend have the same number of cookies total, you can write an equation to represent the screnario: <br>
+				You have probably heard of F = ma in science class.  F = ma is an <i>equation</i> which states that Force (F) is equal to mass (m) times acceleration (a).  We can use equations to model things more efficiently, like with F = ma. Since in an equation, both sides are equal, if you were to add 1 to both sides, they would still be equal.  (if F = ma then F+1 = ma+1) This fact can be very usefull for a few reasons.  Lets say that you are going to a party, since you are super fancy you decide to get five jars of cookies.  But the number of cookies isn't on the packaging.  Your friend happens to bring one of the same jars plus some boxes (boxes together contain 36 total cookies.) from the same brand.  (I know this is really specific, just bear with me here) <br><br> By sheer miricle and blessing of the dumb math equations Leprachaun, the combined weights written on each package (both jars and boxes) for each of you is the same.  (Since they are the same brand, this supposedly means the total number of cookies is the same).  Point is, you two want to make sure you have enough cookies for the party.  Neither of you will open the packages since you aren't sociopaths.  <br> You can get past this oddly specific conundrum by realising that since you and your friend have the same number of cookies total, you can write an equation to represent the screnario: <br>
 				5 jars = 1 jar + 36 cookies<br>
 				If you subtract off 1 jar from both of you (you still physically have the cookies, don't worry) <br>
 				4 jars = 36 cookies<br>
@@ -62,10 +66,11 @@
 			<p>
 				footnote (I have a foot sticking out of my head): at the moment, don't worry about the usefullness of polynomials, just know that they are pretty funky.  (also just as a reminder, an expression is an equation that doesn't have an equal sign.  ex: instead of 1+1 = 2 it's just 1+1)
 
-				If you have a variable x, or <a href="#ovequations">j</a> to be consistant, you can imagine that j<sup>2</sup> is also a thing that exists.  And so is j<sup>litterally anything I don't wan't to keep dragging this out</sup>. <br>
+				If you have a variable x, or <a href="#ovequations">j</a> to be consistant, you can imagine all powers of j:  j<sup>2</sup>, j<sup>3</sup><br> or maybe j<sup>302984</sup>
 				A polynomial is an expression with any number of terms.  Each term being xj<sup>n</sup> (some number times j to the power of some number) <br>
-				For example, 2j<sup>2</sup> + j is a polynomial and so is 5j<sup>3</sup> + 3j + 4 (since j<sup>0</sup> will always be 1, "constant terms" which don't have j are allowed)
-				The <sup>exponent</sup> of the highest <sup>exponent</sup> term is the "degree" of the polynomial.<br>
+				For example, 2j<sup>2</sup> + j is a polynomial and so is 5j<sup>3</sup> + 3j + 4 (since j<sup>0</sup> will always be 1, "constant terms" which don't have j are allowed)<br><br>
+				When graphing a <a href="#ovlinear">non-linear</a> polynomial, the graph forms a sort of U type shape. <br> <img src="Images/quadratic.png"> <img src="Images/cubic.png">
+				<br><br>The <sup>exponent</sup> of the highest <sup>exponent</sup> term is the "degree" of the polynomial.<br>
 				(ex: 3j<sup>4</sup> + 2j<sup>3</sup> + j + 27 would be a 4th degree polynomial since the highest exponent term is 3j<sup>4</sup>)
 				<br> In mathy terms:  A polynomial of degree n is (aj<sup>n</sup> + bj<sup>n-1</sup> + ... + yj<sup>1</sup> + zj<sup>0</sup>)
 				<br> <br>
@@ -87,36 +92,47 @@
 
 			</p>
 			<h3 id="ovfunctions">Functions</h3>
+			<p>
+				<i>Functions</i> serve a function, woopdiedoo wow.  You may remember from last year that a function, in dictionary terms, is an equation in which any input has exactly one output.  y = 2x is a function in which you <i>input</i> a number <i>x</i> and get out exactly twice that number <i>y.</i>  Typically, functions are written as <i>f</i>(x) = instead of y = so that it's more clear that it's refering to a function that is acting on x instead of some other variable y.  (<i>f</i> is the most common letter but it doesn't matter)  Functions can be graphed just like equations can.  
+			</p>
 			<h4 id="ovlinear">Linear</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>
+				Linear functions are functions that have no funky buisness going on.  <br>  The graph of a linear function should be a straight line.  <br> <a href="#ovsequences">Each time you go up by one</a>, the value increases by a constant<br>
+				A linear equation can be represented as <i>f</i>(x) = mx + b which you likely recognise.  
+				<img src="Images/linear.png">
+			</p>
 			<h4 id="ovexponential">Exponential</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>
+				An exponential function is a function that increases exponentially wowee.  <br>
+				<a href="#ovsequences">Each time you go up by one</a>, the value is multiplied by a constant. <br>
+				For example, after every day, the population of rabbits <i>doubles</i> (is <i>multiplied</i> by 2). <br>
+				The graph of an exponential function looks like a curve that spikes upwards indefinitally.  <br>
+				An exponential function can be represented as <i>f</i>(x) = a(b<sup>x</sup>) + k
+				<img src="Images/exponential.png">
+
+			</p>
 			<h4 id="ovquadratic">Quadratic</h4>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				A quadratic function is a <a href="#ovpolynomials">degree 2 polynomial</a> function. <br>
+				<a href="#ovsequences">Each time you go up by one</a> the value goes up by a value that increases by a constant (don't worry about it if that makes 0 sense) <br>
+				The graph of a quadratic function should form a U shape (or an upsidown U)<br>
+				Quadratic functions are represented as <i>f</i>(x) = ax<sup>2</sup> + bx + c
+				<img src="Images/quadratic.png">
 			</p>
+			<h4 id="ovsequences">Sequences</h4>
+			<p>
+				Sequences are pretty simple in concept.  If you have 5 <a href="COOKIES!/cookies.html" style="color: rgb(50, 100, 150);">cookies</a> and every minute you magically gain 1 cookie, then the number of cookies, g<sub>n</sub>, that you have after n minutes can be written as 1n + 5 since you start with 5 cookies and gain 1 each minute.  <br> That's nothing new, we know this already from functions.  That's because what I just showed you (g<sub>n</sub> = 1n + 5) is an <i>explicit</i> sequence.  <br><br>When you think of the word "sequence" on it's own, you probably think of lists or patterns.  For example, [4, 6, 8, 10].  You can tell me that that list starts at 4 and increases by 2 each time.  <br>
+				And you could tell me that the 5th item in the list would be twelve because the 4th item (10) + 2 is 12.<br>
+				You can say that each item in the sequence is 2 more than the previous item.  If you know the first Item is 4, you can write this out as: <br>
+				<br> g<sub>n</sub> = g<sub>n-1</sub> + 2<br>
+				Again, all this is saying is that the nth item in the sequence, g<sub>n</sub>, is the previous item, g<sub>n-1</sub>, plus 2.
+				And knowing this about the sequence, you can construct an <i>explicit</i> formula for the nth term in the sequence.  For our list, the <b>1</b>st element of the sequence is a 4 and it goes up by two each time.  If we go from the 1st element to the "0th" element, instead of adding two, we can subtract two.  This gets us from 4 to 2.  Assuming you remember <a href="#ovlinear">slope intersept form (y = mx + b)</a> we can now write an equation for the sequence.  The y int (0th element) is 2 and the slope is also 2.  So the <i>explicit</i> form of the sequence is g<sub>n</sub> = 2x + 2
+				<img src="Images/sequence.png">
+
+			</p>
+			<h4 id="ovquadratic">Quadratic</h4>
 			<h3 id="ovquadratics">Quadratics</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Quadratics are a doozy so It will be a bit till I get this explanation down.  I'd rather focus on the in depth explanations for everything else.  Quadratics are fourth quarter anyway so I should have the time for that.  </p>
 
 	</div>
 
